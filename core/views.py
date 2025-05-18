@@ -5,5 +5,7 @@ def home_page_view(request):
 
 # Prepare for production environment
 
+# Deploy Django to Railway with docker containers
+
 
 
