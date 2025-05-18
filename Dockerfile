@@ -27,4 +27,4 @@ RUN python manage.py collectstatic --noinput
 EXPOSE 8000
 
 # Run migrations and start Gunicorn
-CMD ["sh", "-c", "python manage.py migrate && gunicorn --bind 0.0.0.0:$PORT your_project_name.wsgi:application"]
+CMD ["sh", "-c", "python manage.py migrate && gunicorn --bind 0.0.0.0:$PORT saas_platform.wsgi:application"]
