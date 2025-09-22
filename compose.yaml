@@ -1,7 +1,0 @@
-services:
-  server:
-    build:
-      context: .
-      dockerfile: Dockerfile  # Specify the Dockerfile explicitly (optional)
-    ports:
-      - 8000:8000
